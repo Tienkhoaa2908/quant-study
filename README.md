@@ -1,6 +1,6 @@
 # Finance — Quant Learning
 
-Nền tảng tự học tài chính bằng tiếng Việt, có bản tiếng Anh, hướng quant trader/developer và năng lực nghiên cứu. Repository: https://github.com/Tienkhoaa2908/finance.
+Nền tảng tự học tài chính bằng tiếng Việt, có bản tiếng Anh, hướng quant trader/developer và năng lực nghiên cứu. Repository: https://github.com/Tienkhoaa2908/quant-study.
 
 **Website:** https://finance-tienkhoaa2908.vercel.app · [Bài P&L](https://finance-tienkhoaa2908.vercel.app/finance/pnl)
 

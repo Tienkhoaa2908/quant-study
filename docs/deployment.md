@@ -2,19 +2,19 @@
 
 Verified on 2026-11-23 (Asia/Saigon).
 
-- Repository: https://github.com/Tienkhoaa2908/finance, branch main.
+- Repository: https://github.com/Tienkhoaa2908/quant-study, branch main.
 - Application commit: 6e7309cddba7cd246d4e5c6c569c76db78ff7677.
 - Vercel account/team: tienkhoaa2908; project finance-tienkhoaa2908.
 - Production: https://finance-tienkhoaa2908.vercel.app.
 - Deployment: https://finance-tienkhoaa2908-3qlml1734-tienkhoaa2908.vercel.app, READY.
 - Next.js 16.4.6, Node 24, root repository directory. Install npm ci; build npm run build.
-- Direct authenticated CLI deployment. Git integration is not connected; pushing main alone does not publish a new deployment.
+- Repository migration pending verification of the Git integration. The earlier production deployment was created with the authenticated CLI.
 - No application environment variables, MongoDB or OAuth are needed for the finance learning flows. Progress is local to the browser with JSON backup import/export. Inherited server APIs are not finance progress synchronization.
 - Upstream repository and its deployment were not changed.
 
 ## Releasing updates
 
-Verify vercel whoami is tienkhoaa2908, the local project link targets finance-tienkhoaa2908, and Git author identity matches Tienkhoaa2908. Run content audit, unit tests, build and appropriate browser checks. Commit/push to finance/main, then deploy:
+Verify vercel whoami is tienkhoaa2908, the local project link targets finance-tienkhoaa2908, and Git author identity matches Tienkhoaa2908. Run content audit, unit tests, build and appropriate browser checks. Commit/push to quant-study/main. After checking the Vercel Git connection, deploy or verify the resulting production build:
 
 ~~~sh
 vercel deploy --prod --yes --scope tienkhoaa2908 --archive tgz --logs

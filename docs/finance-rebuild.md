@@ -38,4 +38,4 @@ Giáo trình lõi kết nối các năng lực để làm dự án. Các chuyên
 
 ## Git và triển khai
 
-Chỉ dùng Tienkhoaa2908/finance. Main đã có lịch sử riêng từ da93ea8; attribution trong UPSTREAM.md. Không merge lịch sử gốc trở lại và không push repo upstream. Deployment dùng CLI máy dưới đúng tài khoản; không dùng plugin tài khoản khác. Site finance không cần MongoDB/OAuth để học; cấu hình dịch vụ bổ sung là việc riêng.
+Repo hiện hành: Tienkhoaa2908/quant-study. Main đã có lịch sử riêng từ da93ea8; attribution trong UPSTREAM.md. Không merge lịch sử gốc trở lại và không push repo upstream. Deployment dùng CLI máy dưới đúng tài khoản; không dùng plugin tài khoản khác. Site finance không cần MongoDB/OAuth để học; cấu hình dịch vụ bổ sung là việc riêng.

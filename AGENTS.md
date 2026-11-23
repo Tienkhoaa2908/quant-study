@@ -10,4 +10,4 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Repository
 
-This project is maintained at `Tienkhoaa2908/finance`. Do not push or deploy changes to the upstream repository or its Vercel project. Preserve upstream attribution in UPSTREAM.md. The owner approved a fresh Git history for finance on 2026-11-23; do not merge the upstream history back into main. All new commits must use the verified Tienkhoaa2908 identity.
+This project is maintained at `Tienkhoaa2908/quant-study`. Do not push or deploy changes to the upstream repository or its Vercel project. Preserve upstream attribution in UPSTREAM.md. The owner approved a fresh Git history for this project on 2026-11-23; do not merge the upstream history back into main. All new commits must use the verified Tienkhoaa2908 identity.
