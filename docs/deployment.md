@@ -1,26 +1,26 @@
 # Finance deployment
 
-Verified on 2026-11-23 (Asia/Saigon).
+Verified on 2026-11-23 (Asia/Saigon). Current source repository and production connection verified after migration.
 
 - Repository: https://github.com/Tienkhoaa2908/quant-study, branch main.
-- Application commit: 6e7309cddba7cd246d4e5c6c569c76db78ff7677.
+- First production build from quant-study: 4f3d4fb45f3dd2dee8c6ab35774fc3db04d5a3a2, attributed to Tienkhoaa2908. Earlier finance commits are preserved in this repository history and UPSTREAM.md preserves inherited authorship.
 - Vercel account/team: tienkhoaa2908; project finance-tienkhoaa2908.
 - Production: https://finance-tienkhoaa2908.vercel.app.
-- Deployment: https://finance-tienkhoaa2908-3qlml1734-tienkhoaa2908.vercel.app, READY.
+- Existing production URL remains https://finance-tienkhoaa2908.vercel.app. First quant-study deployment: dpl_EvqH7jL5SEYRZw5ZrkAn1UVmEWC6, READY.
 - Next.js 16.4.6, Node 24, root repository directory. Install npm ci; build npm run build.
-- Repository migration pending verification of the Git integration. The earlier production deployment was created with the authenticated CLI.
+- Vercel project is linked to GitHub repository Tienkhoaa2908/quant-study (GitHub repo ID 1469002574), production branch main, root directory. Pushes to main trigger production builds. The migration build was also verified through the authenticated CLI.
 - No application environment variables, MongoDB or OAuth are needed for the finance learning flows. Progress is local to the browser with JSON backup import/export. Inherited server APIs are not finance progress synchronization.
 - Upstream repository and its deployment were not changed.
 
 ## Releasing updates
 
-Verify vercel whoami is tienkhoaa2908, the local project link targets finance-tienkhoaa2908, and Git author identity matches Tienkhoaa2908. Run content audit, unit tests, build and appropriate browser checks. Commit/push to quant-study/main. After checking the Vercel Git connection, deploy or verify the resulting production build:
+Verify vercel whoami is tienkhoaa2908, the local project link targets finance-tienkhoaa2908, and Git author identity matches Tienkhoaa2908. Run content audit, unit tests, build and appropriate browser checks. Commit/push to quant-study/main; Vercel builds this branch automatically. Check that the resulting deployment reaches READY and the production URL serves the new commit. For a deliberate manual production deployment from the same checkout:
 
 ~~~sh
 vercel deploy --prod --yes --scope tienkhoaa2908 --archive tgz --logs
 ~~~
 
-Archive upload was used because the initial individual-file upload did not complete during observation. That attempt was stopped before a deployment was created. Never deploy from an unverified account/project link or print credentials.
+Archive upload was used for the first quant-study deployment. GitHub App access to quant-study was then granted and native Git integration connected successfully. Never deploy from an unverified account/project link or print credentials.
 
 ## Verification
 
